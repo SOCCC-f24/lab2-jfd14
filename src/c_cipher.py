@@ -1,6 +1,7 @@
 import logging
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 
+##I changed encrypt(email="abc012") to encrypt(email) in order for enc = encrypt(email) to work
 def encrypt(email):
     """
     TODO: What is the objective? 
